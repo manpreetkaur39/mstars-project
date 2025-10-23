@@ -1,0 +1,39 @@
+// _custom-theme.scss
+
+// custom color variables for the light theme
+$blue-500: #0d6efd;      // Primary
+$gray-600: #6c757d;      // Secondary, Input border, Disabled Input foreground
+$green-600: #198754;     // Green
+$orange-600: #fd7e14;    // Orange
+$red-500: #dc3545;       // Red Foreground
+$red-100: #f8d7da;       // Error red background
+$yellow: #ffc107;        // Yellow
+$cyan: #0dcaf0;          // Light Blue
+$blue-700: #0a58ca;      // Dark Blue
+$white: #ffffff;         // Card background, Input background, Inverse body copy, Top nav Copy
+$gray-900: #212529;      // Neutral background, Top nav background
+$blue-100: #cfe2ff;      // Mandatory input background
+$mdot-red: #981E32;      // MDOT red
+
+// Override Bootstrap color variables
+$primary: $blue-500;
+$secondary: $gray-600;
+$success: $green-600;
+$warning: $orange-600;
+$danger: $red-500;
+$info: $cyan;
+$light: $white;
+$dark: $blue-700;
+
+// Additional custom variables
+$body-bg: $white;
+$card-bg: $white;
+$input-bg: $white;
+$input-border-color: $gray-600;
+$disabled-input-color: rgba($gray-600, 0.81);
+$error-bg: $red-100;
+$error-color: $red-500;
+$topnav-bg: $gray-900;
+$topnav-text-color: $white;
+$inverse-body-copy-color: $white;
+$mandatory-input-bg: $blue-100;

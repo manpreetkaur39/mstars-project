@@ -1,0 +1,46 @@
+// dark theme color variables
+$ramiri-blue-200: #a6c8ff;         // Ramiri Blue 200
+$secondary-grey-500: #6c757d;       // Secondary Grey 500
+$green-500: #198754;                 // Green 500
+$orange-600: #fd7e14;                // Orange 600
+$red: #dc3545;                      // Red
+$yellow: #ffc107;                   // Yellow
+$light-blue: #0dcaf0;               // Light Blue / Cyan
+$cyan: #0dcaf0;                    // Cyan (same as light blue)
+$dark-blue: #0a58ca;               // Dark Blue / Blue 700
+$blue-700: #0a58ca;                // Explicit Blue 700
+$cart-background-grey-800: #343a40; // Card background (گری 800)
+$neutral-background-grey-900: #212529; // Neutral background gray 900
+$body-copy-white: #ffffff;            // Body copy white
+$input-border-gray-600: #6c757d;      // Input border gray 600
+$input-background-gray-700: #495057;  // Input background gray 700
+$mandatory-input-background-blue-800: #084298; // Mandatory input background blue 800
+$topnav-background-grey-900: #212529; // Topnav background gray 900
+$topnav-copy-white: #ffffff;           // Topnav copy white
+$mdot-red-hex: #981E32;                // MDOT red (corrected HEX without 'H' prefix should be #891E32)
+$first-body-copy-black: #000000;       // First body copy black
+$disabled-input-background: #5C656E;   // Disabled input background
+$disabled-input-foreground: #6c757d;   // Disabled input foreground (assumed gray 600)
+
+// Override Bootstrap variables for dark theme
+$primary: $ramiri-blue-200;
+$secondary: $secondary-grey-500;
+$success: $green-500;
+$warning: $orange-600;
+$danger: $red;
+$info: $cyan;
+$light: $body-copy-white;
+$dark: $dark-blue;
+
+// Backgrounds and texts
+$body-bg: $neutral-background-grey-900;
+$card-bg: $cart-background-grey-800;
+$input-bg: $input-background-gray-700;
+$input-border-color: $input-border-gray-600;
+$disabled-bg: $disabled-input-background;
+$disabled-color: $disabled-input-foreground;
+$mandatory-input-bg: $mandatory-input-background-blue-800;
+$topnav-bg: $topnav-background-grey-900;
+$topnav-color: $topnav-copy-white;
+$inverse-body-copy-color: $body-copy-white;
+$first-body-copy-color: $first-body-copy-black;
